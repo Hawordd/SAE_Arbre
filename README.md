@@ -14,10 +14,10 @@ Arbre est une application de bureau développée en Java permettant de gérer sa
 ## Dépendances et librairies utilisées
 
 - Java 21 
-- JavaFX 19 pour l'interface graphique
+- JavaFX 22 pour l'interface graphique
 - API RAWG (https://rawg.io) pour les données des jeux
-- Librairie HTTP client pour les requêtes à l'API (java.net.http ou OkHttp ou autre)
-- Jackson pour le parsing JSON
+- Librairie HTTP client pour les requêtes à l'API ([java.net.http](https://openjdk.org/groups/net/httpclient/intro.html))
+- [Jackson](https://github.com/FasterXML/jackson) pour le parsing JSON
 
 ## Lancement de l'application 
 
@@ -29,14 +29,14 @@ Arbre est une application de bureau développée en Java permettant de gérer sa
 
 - Cloner le repository : `git clone https://github.com/Hawordd/Arbre.git`
 - Ouvrir le dossier avec un IDE Java (ex : IntelliJ)
-- Configurer le SDK 21 et JavaFX 19
+- Configurer le SDK 21 et JavaFX 22
 - Lancer la classe `Arbre.main()`
 
 ## Contributeurs
 
 - Matthis (Hawordd)
-- Lou-Ann
+- Lou-Ann 
 - Gaël
-- Théo
+- Théo (TheoIUTLaval)
 
 Réalisé dans le cadre de la SAE 2.01 du BUT Informatique de l'IUT de Laval.
