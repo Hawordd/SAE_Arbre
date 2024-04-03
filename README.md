@@ -30,7 +30,7 @@ Arbre est une application de bureau développée en Java permettant de gérer sa
 - Cloner le repository : `git clone https://github.com/Hawordd/Arbre.git`
 - Ouvrir le dossier avec un IDE Java (ex : IntelliJ)
 - Configurer le SDK 21 et JavaFX 22
-- Lancer la classe **non définie...**
+- Lancer la classe `non définie...`
 
 ## Contributeurs
 
