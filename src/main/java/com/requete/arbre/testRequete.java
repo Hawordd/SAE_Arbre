@@ -8,6 +8,8 @@ package com.requete.arbre;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.Scanner;
 
@@ -23,7 +25,8 @@ public class testRequete {
             String requestUrl = "https://api.rawg.io/api/games?key=" + apiKey;
 
             // Envoyer la requête HTTP GET
-            URL url = new URL(requestUrl);
+            URI uri = new URI(requestUrl);
+            URL url = uri.toURL();
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
             con.setRequestMethod("GET");
 
@@ -42,6 +45,8 @@ public class testRequete {
                 System.out.println("Erreur de requête : " + responseCode);
             }
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (URISyntaxException e) {
             e.printStackTrace();
         }
     }
