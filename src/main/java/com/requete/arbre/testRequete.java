@@ -1,3 +1,9 @@
+/*
+This Java program sends an HTTP GET request to the RAWG API to retrieve a list of games.
+It will print the name and rating of the games returned by the API.
+Replace YOUR-API-KEY by your actual API key.
+ */
+
 package com.requete.arbre;
 
 import java.io.IOException;
